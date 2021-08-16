@@ -1,0 +1,6 @@
+O que vamos aprender na Trybe:
+
+- Unix
+- Bash
+- Git
+- NodeJS
