@@ -13,7 +13,7 @@ ensinar seus alunos e sobre como desafiante isso pode ser! :rocket:
 
 
 ## Exercícios
-Os exercícios foram em maior parte para instalar e configurar o **_Git_**, criar a conta no _**GitHub_** e configurar nossa chave SSH no computador.
+Os exercícios foram em maior parte para instalar e configurar o **_Git_**, criar a conta no **_GitHub_** e configurar nossa chave SSH no computador.
 
 Para podermos simular um exercício feito, você criará um arquivo  `.txt`  com um nome de sua escolha (Exemplo:  `trybe-skills.txt`  ) e utilizará o conteúdo abaixo.
 
