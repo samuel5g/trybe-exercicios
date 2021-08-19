@@ -1,0 +1,33 @@
+body{
+    font-size: 16px;
+    
+}
+
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+
+.cores {
+    background-color: yellow;
+}
+
+p {
+    font-weight: 600;
+    font-size: 3em;
+}
+
+#yellow {
+    background-color: yellow;
+    line-height: 30px;
+}
+#red {
+    background-color: red;
+    line-height: 30px;
+}
+
+#maroon {
+    background-color: maroon;
+    line-height: 30px;
+}
