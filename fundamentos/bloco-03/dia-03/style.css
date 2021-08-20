@@ -1,0 +1,32 @@
+div:hover {
+  border: 3px solid black;
+}
+
+#escura {
+  background-color: #03045E;
+}
+
+#clara {
+  background-color: #00B4D8;
+}
+
+#primaria {
+  background-color: red;
+}
+
+#secundaria {
+  background-color: purple;
+}
+
+#complementar {
+  background-color: lightsalmon;
+  padding: 10px 0px;
+}
+
+.impar {
+  font-style: italic;
+}
+
+.par {
+  font-weight: 600;
+}
