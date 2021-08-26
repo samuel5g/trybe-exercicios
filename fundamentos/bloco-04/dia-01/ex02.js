@@ -11,3 +11,4 @@ if(a > b){
 } else {
   console.log("São iguais, assim não conta");
 }
+
