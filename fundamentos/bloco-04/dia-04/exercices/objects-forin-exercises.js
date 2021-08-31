@@ -30,6 +30,5 @@ for(key in info){
     delete info2.recorrente;
     console.log(`${info[key]} e ${info2[key]}`);
   }
-  
 }
 console.log("Ambos recorrentes");
