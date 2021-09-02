@@ -58,16 +58,18 @@
       }
       function toUpperCase(tag) {
         let tags = document.getElementsByTagName(tag);        
-        for (value in tags) {
-          let t = tags[value].innerText.toUpperCase();
-          tags[value].innerText = t;
+        for (let value in tags) {
+          if (tags[value].innerText !== undefined) {
+            let t = tags[value].innerText.toUpperCase();
+            tags[value].innerText = t;
+          }
         }
       }
 
       addDescriptionWithId('me', 'Me vejo trabalhando no que gosto e conseguindo me sustentar');
       changeBgColor('main', 'rgb(76,164,109)');
       changeCenterBgColor('center-content', 'white');
-      correctTitle('title', 'Exercício 5.1 - JavaEscript');
+      correctTitle('title', 'Exercício 5.1 - Javascript');
       toUpperCase('p');
 
 
