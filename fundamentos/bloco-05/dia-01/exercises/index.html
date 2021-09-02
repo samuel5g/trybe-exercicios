@@ -65,12 +65,19 @@
           }
         }
       }
+      function allPOnConsole() {
+        let ps = document.getElementsByTagName('p');
+        for (let i = 0; i < 3; i += 1) {
+          console.log(ps[i].innerText)
+        }
+      }
 
       addDescriptionWithId('me', 'Me vejo trabalhando no que gosto e conseguindo me sustentar');
       changeBgColor('main', 'rgb(76,164,109)');
       changeCenterBgColor('center-content', 'white');
       correctTitle('title', 'Exercício 5.1 - Javascript');
       toUpperCase('p');
+      allPOnConsole();
 
 
       /*
@@ -83,7 +90,7 @@
      ✅️ Crie uma função que mude a cor do quadrado vermelho para branco.
      ✅️ Crie uma função que corrija o texto da tag <h1>.
      ✅️ Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
-        Crie uma função que exiba o conteúdo de todas as tags <p> no console.
+     ✅️ Crie uma função que exiba o conteúdo de todas as tags <p> no console.
       */
     </script>
   </body>
