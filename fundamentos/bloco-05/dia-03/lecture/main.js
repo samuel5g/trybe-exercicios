@@ -35,14 +35,25 @@ function resetText(event) {
 firstLi.addEventListener('dblclick', resetText);
 
 
-containerUl.addEventListener('click', function (event){
+containerUl.addEventListener('click', function(event){
   if (event.target !== containerUl) {
     for (let element in Li) {
       Li[element].className = '';
       event.target.className = 'tech';
     }
   }
-  console.log(event.target);
+})
+
+input.addEventListener('keyup', function() {
+  for (element in Li) {
+    if (Li[element].className === 'tech') {
+      Li[element].innerText = input.value;
+    }
+  }
+})
+
+myWebpage.addEventListener('dblclick', function(){
+  window.open('https://samuel5g.github.io', '_blank')
 })
 // Não precisa passar o parâmetro dentro da callback resetText. O próprio
 // navegador fará esse trabalho por você, não é legal? Desse jeito, o
