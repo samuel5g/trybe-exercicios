@@ -57,14 +57,25 @@ function createDays() {
   }
 }
 
+const button = document.createElement('button');
 function createButtonHoliday(string) {
-  const button = document.createElement('button');
   const divButtons = document.querySelector('.buttons-container');
   button.innerHTML = string;
   button.id = 'btn-holiday';
   divButtons.appendChild(button);
 
 }
+
+button.addEventListener('click', function(event) {
+  const holidays = document.getElementsByClassName('holiday');
+  for (let day of holidays) {
+    if (day.style.backgroundColor === 'rgb(133, 196, 219)') {
+      day.style.backgroundColor = 'rgb(238,238,238)'
+    } else {
+      day.style.backgroundColor = 'rgb(133, 196, 219)';
+    }
+  }
+})
 
 createDays();
 createButtonHoliday('Feriados')
