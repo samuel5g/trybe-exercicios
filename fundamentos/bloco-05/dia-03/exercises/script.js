@@ -57,4 +57,14 @@ function createDays() {
   }
 }
 
+function createButtonHoliday(string) {
+  const button = document.createElement('button');
+  const divButtons = document.querySelector('.buttons-container');
+  button.innerHTML = string;
+  button.id = 'btn-holiday';
+  divButtons.appendChild(button);
+
+}
+
 createDays();
+createButtonHoliday('Feriados')
