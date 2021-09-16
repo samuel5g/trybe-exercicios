@@ -1,0 +1,13 @@
+* {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+fieldset {
+  max-width: 60%;
+  margin: auto;
+}
+
+input {
+  margin: 10px;
+}
