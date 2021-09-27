@@ -17,3 +17,11 @@ const lesson3 = {
   professor: 'Maria Clara',
   turno: 'noite',
 };
+
+const addNightShift = (modifiedObject, key, value) => {
+  modifiedObject[key] = value;
+}
+
+addNightShift(lesson2, 'turno', 'noite');
+
+// console.log(lesson2);
