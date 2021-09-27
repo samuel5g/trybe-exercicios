@@ -26,11 +26,17 @@ addNightShift(lesson2, 'turno', 'noite');
 
 // console.log(lesson2);
 
-const listKeys = (object) => {
+const listObjectKeys = (object) => {
   return Object.keys(object);
 }
 
-// console.log(listKeys(lesson2));
+// console.log(listObjectKeys(lesson2));
+
+const listObjectValues = (object) => {
+  return Object.values(object);
+}
+
+// console.log(listObjectValues(lesson2));
 
 const showObjectLength = (object) => {
   return Object.entries(object).length;
