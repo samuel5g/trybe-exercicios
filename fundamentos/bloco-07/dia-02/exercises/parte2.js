@@ -31,3 +31,9 @@ const listKeys = (object) => {
 }
 
 // console.log(listKeys(lesson2));
+
+const showObjectLength = (object) => {
+  return Object.entries(object).length;
+}
+
+// console.log(showObjectLength(lesson1));
