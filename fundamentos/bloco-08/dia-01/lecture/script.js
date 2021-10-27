@@ -1,13 +1,13 @@
-const wakeUp = () => {
-  return 'Acordando!!';
+const wakingUp = () => {
+  return 'Acordando!!'
 }
 
 const breakfast = () => {
-  return 'Bora tomar café!!';
+  return 'Bora tomar café!!'
 }
 
 const goingSleep = () => {
-  return 'Partiu dormir!!';
+  return 'Partiu dormir!!'
 }
 
 const doingThings = (callback) => {
