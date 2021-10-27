@@ -15,4 +15,3 @@ const doingThings = (callback) => {
 }
 
 doingThings(goingSleep);
-
